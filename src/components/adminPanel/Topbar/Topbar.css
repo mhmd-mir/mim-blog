@@ -1,0 +1,9 @@
+.logo{
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 10px 40px;
+    background: var(--logo_bg);
+    border-radius: 2px;
+    cursor: pointer;
+}

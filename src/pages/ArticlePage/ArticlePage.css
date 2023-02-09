@@ -1,0 +1,22 @@
+.lableBdg{
+    border: 2px solid #494848e3;
+    padding: 2px 5px;
+    font-size: .8rem;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.allCommentsSection{
+    padding: 1rem;
+    border: 2px solid #dcd204;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.comment{
+    padding: 10px;
+    border: 1px solid #ffce00d6;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.commentEntry{
+    height: 160px;
+}

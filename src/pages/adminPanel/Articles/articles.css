@@ -1,0 +1,19 @@
+.searchBtn{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.searchInput{
+    width: 100% !important;
+}
+.articleTitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+@media screen and (min-width : 567px) {
+    .w-sm-40{
+        width: 40% !important;
+    }
+}

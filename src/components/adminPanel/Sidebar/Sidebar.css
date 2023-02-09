@@ -1,0 +1,31 @@
+ul{
+    list-style-type: none;
+}
+.menu_item{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.menu_item a{
+    color: var(--color) !important;
+}
+.menu_item:hover{
+    background: var(--actice_color);
+    border-radius: 5px;
+}
+.active_menu{
+    background: var(--actice_color) !important;
+}
+
+.personImg{
+    width: 100px;
+    height: 100px;
+    fill: #aaaaaa;
+}
+.adminName{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.adminEmail{
+    font-family: monospace;
+    font-size: 1.5rem;
+}

@@ -1,3 +1,12 @@
+@font-face {
+  font-family: vazir;
+  src: url('./../node_modules/vazirmatn/fonts/ttf/Vazirmatn-Regular.ttf');
+}
+
+html {
+  scroll-behavior: auto;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +15,100 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*{
+  font-family: vazir;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.rtl{
+  direction: rtl;
+}
+a{
+  text-decoration: none !important;
+  color: #000000 !important;
+}
+
+.bgLayout{
+  background-color: var(--layout_bg) !important;
+}
+.ltr{
+  direction: ltr;
+}
+.non-raduis{
+  border-radius: 2px !important;
+}
+.pointerCursor{
+  cursor: pointer;
+}
+tr{
+  vertical-align: middle;
+  text-align: center;
+}
+ul{
+  padding: 0 10px 0 10px !important;
+}
+.bigIcon{
+  width: 30px;
+  height: 30px;
+}
+
+.greenFill{
+  fill: green;
+}
+.redFill{
+  fill: red;
+}
+.lableInput{
+  font-size: .9rem;
+    margin: 5px;
+    /* padding-bottom: 0px; */
+    position: relative;
+    color: var(--color);
+    top: -3px;
+}
+.mt-100{
+  margin-top: 100px !important;
+}
+td ,th{
+  white-space: nowrap;
+}
+
+@media screen and (min-width :  576px) {
+  .w-sm-25{
+    width: 25% !important;
+  }
+}
+.pointerCursor{
+  cursor: pointer;
+}
+table{
+  color: var(--color) !important;
+}
+thead {
+  background: var(--thead_bg);
+}
+.headerIntro{
+  background: var(--background) !important;
+  color: var(--active_color);
+}
+.form-control{
+  background: var(--input_bg) !important;
+  color: var(--color) !important;
+}
+.nav-item .active{
+  color: var(--active_color) !important;
+  background: var(--background) !important;
+}
+.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline{
+  background: var(--input_bg);
+}
+.ck.ck-toolbar.ck-toolbar_grouping {
+  background: var(--toolbar_bg);
+}
+
+.swal2-popup.swal2-modal.swal2-show{
+  background : var(--background) !important;
+  color: var(--color) !important;
+}
+.bold{
+  font-weight: 600 !important;
 }

@@ -1,0 +1,18 @@
+.articleBox{
+    padding-bottom: 15px;
+    box-shadow: 1px 1px 9px #979797eb;
+    border-radius: 5px;
+    background: #f8f8f8;
+}
+.articleBox div{
+    padding: 0 5px;
+}
+.articleBox img{
+    border-radius: 5px 5px 0 0 !important;
+}
+.customBadge{
+    background: #939393f2;
+    border-radius: 2px;
+    padding: 2px 8px;
+    color: #ffffff;
+}

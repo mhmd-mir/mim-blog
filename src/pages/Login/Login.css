@@ -1,0 +1,26 @@
+.loginSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--background);
+    background-image: url('./../../../public/images/loginBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.loginBox{
+    padding: 5rem 1rem 3rem 1rem;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 400px;
+    box-shadow: 1px 1px 5px #a3a3a399;
+}
+
+
+
+
+
+    /* https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 */
