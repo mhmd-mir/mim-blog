@@ -33,7 +33,7 @@ export default function Comments() {
         dispatch({
           type: "API_REQUEST",
           payload: {
-            url: `https://ill-rose-salmon-hem.cyclic.app/comments/${id}`,
+            url: `http://localhost:3000/comments/${id}`,
             method: "PATCH",
             uniqId: id,
             data: { isConfirm: 1 },
@@ -47,7 +47,7 @@ export default function Comments() {
         dispatch({
           type: "API_REQUEST",
           payload: {
-            url: `https://ill-rose-salmon-hem.cyclic.app/comments/${id}`,
+            url: `http://localhost:3000/comments/${id}`,
             method: "PATCH",
             uniqId: id,
             data: { isConfirm: 0 },
@@ -76,7 +76,7 @@ export default function Comments() {
         dispatch({
           type: "API_REQUEST",
           payload: {
-            url: `https://ill-rose-salmon-hem.cyclic.app/comments/${id}`,
+            url: `http://localhost:3000/comments/${id}`,
             method: "DELETE",
             uniqId: id,
             onSuccessType: "comments/DELETE_COMMENT",

@@ -41,7 +41,7 @@ export default function AdminInfo() {
     dispatch({
         type : 'API_REQUEST' ,
         payload : {
-            url : 'https://ill-rose-salmon-hem.cyclic.app/adminInfo' ,
+            url : 'http://localhost:3000/adminInfo' ,
             method : 'PUT' ,
             data : newAdminInfo ,
             onSuccessType : 'admin/CHANGE_ADMIN_INFO' ,
@@ -63,7 +63,7 @@ export default function AdminInfo() {
         dispatch({
           type : 'API_REQUEST' , 
           payload : {
-            url : 'https://ill-rose-salmon-hem.cyclic.app/adminInfo' ,
+            url : 'http://localhost:3000/adminInfo' ,
             method : 'PATCH' , 
             data : {password : res.value} ,
             uniqId : id,

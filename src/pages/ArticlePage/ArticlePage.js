@@ -45,7 +45,7 @@ export default function ArticlePage() {
     dispatch({
         type : 'API_REQUEST' , 
         payload : {
-            url : 'https://ill-rose-salmon-hem.cyclic.app/comments' ,
+            url : 'http://localhost:3000/comments' ,
             method : 'POST' , 
             data : newCommentInfo ,
             onSuccessType : 'comments/ADD_COMMENT' ,

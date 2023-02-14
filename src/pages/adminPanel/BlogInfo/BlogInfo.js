@@ -44,7 +44,7 @@ export default function BlogInfo() {
     dispatch({
       type: "API_REQUEST",
       payload: {
-        url: "https://ill-rose-salmon-hem.cyclic.app/blogInfo",
+        url: "http://localhost:3000/blogInfo",
         method: "PUT",
         data: newBlogInfo,
         onSuccessType: "blog/CHANGE_BLOG_INFO",

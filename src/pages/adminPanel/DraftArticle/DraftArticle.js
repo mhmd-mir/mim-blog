@@ -78,7 +78,7 @@ export default function DraftArticle() {
     dispatch({
       type: "API_REQUEST",
       payload: {
-        url: `https://ill-rose-salmon-hem.cyclic.app/articles/${params.id}`,
+        url: `http://localhost:3000/articles/${params.id}`,
         method: "PUT",
         data: newArticleObj,
         onSuccessType: "articles/EDIT_ARTICLE",

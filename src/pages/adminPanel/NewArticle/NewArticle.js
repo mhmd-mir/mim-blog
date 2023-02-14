@@ -61,7 +61,7 @@ export default function NewArticle() {
     dispatch({
       type: "API_REQUEST",
       payload: {
-        url: "https://ill-rose-salmon-hem.cyclic.app/articles",
+        url: "http://localhost:3000/articles",
         method: "POST",
         data: newArticleObj,
         onSuccessType: "articles/ADD_ARTICLE",

@@ -42,7 +42,7 @@ export default function Articles() {
           payload: {
             method: "DELETE",
             uniqId: id,
-            url: `https://ill-rose-salmon-hem.cyclic.app/articles/${id}`,
+            url: `http://localhost:3000/articles/${id}`,
             onErrorType: "messages/ADD_MESSAGE",
             onSuccessType: "articles/REMOVE_ARTICLE",
           },

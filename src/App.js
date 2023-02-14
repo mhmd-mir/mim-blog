@@ -29,7 +29,7 @@ function App() {
     store.dispatch({
       type: "API_REQUEST",
       payload: {
-        url: "https://ill-rose-salmon-hem.cyclic.app/articles?_embed=comments",
+        url: "http://localhost:3000/articles?_embed=comments",
         method: "INIT_STORE",
         onSuccessType: "articles/INIT_ARTICLES",
       },
@@ -37,7 +37,7 @@ function App() {
     store.dispatch({
       type: "API_REQUEST",
       payload: {
-        url: "https://ill-rose-salmon-hem.cyclic.app/comments?_expand=article",
+        url: "http://localhost:3000/comments?_expand=article",
         method: "INIT_STORE",
         onSuccessType: "comments/INIT_COMMENTS",
       },
@@ -45,7 +45,7 @@ function App() {
     store.dispatch({
       type: "API_REQUEST",
       payload: {
-        url: "https://ill-rose-salmon-hem.cyclic.app/blogInfo",
+        url: "http://localhost:3000/blogInfo",
         method: "INIT_STORE",
         onSuccessType: "blog/INIT_BLOG_INFO",
       },
@@ -53,7 +53,7 @@ function App() {
     store.dispatch({
       type: "API_REQUEST",
       payload: {
-        url: "https://ill-rose-salmon-hem.cyclic.app/adminInfo",
+        url: "http://localhost:3000/adminInfo",
         method: "INIT_STORE",
         onSuccessType: "admin/INIT_ADMIN_INFO",
       },
